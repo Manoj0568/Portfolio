@@ -68,7 +68,8 @@
 }
 
 .description {
-  max-width: 24ch;
+  /* max-width: 24ch; */
+  text-align: center;
 }
 
 .info {
@@ -87,6 +88,9 @@
       max-width: 350px;
       width: 350px;
     }
+    .description{
+      max-width: 24ch;
+    }
   }
 }
 
@@ -96,5 +100,8 @@
       max-width: 400px;
       width: 400px;
     }
+  }
+  .description{
+    max-width: 24ch;
   }
 }
